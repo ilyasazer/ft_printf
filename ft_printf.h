@@ -22,5 +22,6 @@ int	ft_putnbr(int nb);
 int	ft_putunsignedn(unsigned int nb);
 int	ft_puthex(unsigned long int nb, int upper);
 int	ft_putaddress(void *add);
+int	ft_printf(const char *format, ...);
 
 #endif
